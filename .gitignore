@@ -1,0 +1,16 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+.env
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Ultralytics outputs
+runs/
+
+# Optional: don't commit big datasets by default
+data/raw/
+data/processed/
+data/external/
